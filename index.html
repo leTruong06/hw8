@@ -1,112 +1,123 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Giới thiệu bản thân</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/product.css" />
+    <title>產品介紹</title>
   </head>
   <body>
-    <!-- Trang chủ -->
-    <div data-role="page" id="home">
-      <div data-role="header">
-        <h1>Giới thiệu bản thân</h1>
-      </div>
-
-      <div data-role="main" class="ui-content">
-        <h2>Thông tin cơ bản</h2>
-        <ul data-role="listview">
-          <li>
-            <h3>ho va ten</h3>
-            <p>levantruong</p>
-          </li>
-          <li>
-            <h3>Giới tính</h3>
-            <p>男</p>
-          </li>
-          <li>
-            <h3>Tuổi</h3>
-            <p>21 tuoi</p>
-          </li>
-          <li>
-            <h3>Email</h3>
-            <p>letruong06122002@gmail.com</p>
-          </li>
-        </ul>
-      </div>
-
-      <div data-role="footer" data-position="fixed">
-        <div data-role="navbar">
-          <ul>
-            <li><a href="#home" data-transition="pop" class="ui-btn-active ui-state-persist">Thông tin cơ bản</a></li>
-            <li><a href="#interests" data-transition="pop">Sở thích</a></li>
-            <li><a href="#education" data-transition="pop">Học vấn - Kinh nghiệm</a></li>
-          </ul>
+    
+    
+<header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">甜時 ． Sweet</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://leTruong06.github.io/hw8/">關於我們</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">產品介紹</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
+    </header>
+    
+    
+    
+
+<div id="banner"></div>
+<div class="container my-3">
+  <div class="row g-0">
+    <h3 class="title my-3">| 產品介紹<small>Product</small></h3>
+  </div>
+  <div class="row">
+    <div class="col-lg mb-3">
+      <div class="card">
+        <img class="card-img-top" src="https://i02.appmifile.com/525_operatorx_operatorx_xm/22/02/2023/a83af85dd46f847a59a5ffecd1186d16.jpg?q=100" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title text-danger">Xiaomi 13 Pro
+        </h5>
+          <p class="card-text">
+            忘情一刻 真徠卡
+            Xiaomi 13 Pro 是我們影像技術實力的最新展現，也是大師之作的背後推手。在手機中結合專業的光學、感性的成像美學和完整的徠卡體驗，連結百年歷史的攝影傳奇與您如今正在創造的傑出作品。
+          </p>
+          <a href="https://www.mi.com/tw/product/xiaomi-13-pro/?utm_campaign=mktmc_micom_tw_sustain_0517_1231&utm_channel=search&utm_source=google&utm_medium=ShoppingAds&utm_type=1&gclid=EAIaIQobChMIsojNqcWr_wIVikJgCh1yNwI3EAQYAiABEgJ3cfD_BwE" class="btn btn-outline-primary float-end">我要訂購</a>
+     </div>
     </div>
-
-     <!-- Trang sở thích -->
-     <div data-role="page" id="interests">
-        <div data-role="header">
-          <h1>Sở thích</h1>
+</div>
+     <div class="col-lg mb-3">
+      <div class="card">
+        <img class="card-img-top" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1646296237.65978325.png" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title text-danger">Xiaomi 12 Pro</h5>
+          <p class="card-text">
+            我們不斷追求卓越、持續進化，創造出您渴望已久的產品。現在推出 Xiaomi 12 Pro 5G，具備專業級 5000 萬像素三鏡頭組合、WQHD+ 超高解析度 120Hz 變速螢幕、目前最先進的 Snapdragon® 8 Gen 1 晶片組，以及智慧型 120W Xiaomi HyperCharge 極速快充，拍攝任何場景均可應付自如。
+          </p>
+          <a href="https://v12.mi.com/tw/product/xiaomi-12-pro/" class="btn btn-outline-primary float-end">我要訂購</a>
         </div>
-  
-        <div data-role="main" class="ui-content">
-          <h2>Môn thể thao yêu thích</h2>
-          <p>我喜歡踢足球</p>
-  
-          <h2>Thói quen đọc sách</h2>
-          <p>Tôi thích đọc sách về công nghệ, hiện đang đọc cuốn sách "Deep Work".</p>
-  
-          <h2>Kinh nghiệm du lịch</h2>
-          <p>台灣旅遊</p>
+     </div>
+    </div>
+    
+     <div class="col-lg mb-3">
+      <div class="card">
+        <img class="card-img-top" src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1646296064.74496110.png" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title text-danger">Xiaomi 12 5G</h5>
+          <p class="card-text">
+            優雅易握
+            重量 180g 且寬度僅 69.9mm 的 Xiaomi 12 5G 採用先進技術，提供平滑、均勻且輕量的握持感。 
+            舒服好拿，每次接觸都讓人心動。
+          </p>
+          <a href="https://v12.mi.com/tw/product/xiaomi-12/" class="btn btn-outline-primary float-end">我要訂購</a>
         </div>
-  
-        <div data-role="footer" data-position="fixed">
-          <div data-role="navbar">
-            <ul>
-              <li><a href="#home" data-transition="flip">Thông tin cơ bản</a></li>
-              <li><a href="#interests" data-transition="flip" class="ui-btn-active ui-state-persist">Sở thích</a></li>
-              <li><a href="#education" data-transition="flip">Học vấn - Kinh nghiệm</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-       <!-- Trang học vấn - kinh nghiệm -->
-    <div data-role="page" id="education">
-        <div data-role="header">
-          <h1>Học vấn - Kinh nghiệm</h1>
-        </div>
-  
-        <div data-role="main" class="ui-content">
-          <h2>Học vấn</h2>
-          <ul data-role="listview">
-            <li>
-              <h3>景文科技大學</h3>
-              <p>第一年</p>
-            </li>
-            
-            <div data-role="footer" data-position="fixed">
-                <div data-role="navbar">
-                  <ul>
-                    <li><a href="#home">Thông tin cơ bản</a></li>
-                    <li><a href="#interests">Sở thích</a></li>
-                    <li><a href="#education" class="ui-btn-active ui-state-persist">Học vấn - Kinh nghiệm</a></li>
-                  </ul>
-     
-        <div data-role="footer" data-position="fixed">
-          <div data-role="navbar">
-            <ul>
-              <li><a href="#home">Thông tin cơ bản</a></li>
-              <li><a href="#interests">Sở thích</a></li>
-              <li><a href="#education" class="ui-btn-active ui-state-persist">Học vấn - Kinh nghiệm</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+     </div>
+    </div>
+    
+  </div>
+</div>
+<footer class="text-center bg-dark text-white py-2">
+  © 2023 All Rights Reserved.
+</footer>
+    
+<style>   
+ 
+body {
+    font-family: Microsoft JhengHei;
+}
+#banner {
+    background-image: url(data:image/png;base64,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);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    margin-top: 3.5rem;
+}
+.title {
+    color: #FA8072;
+    font-weight: bold;
+} 
+</style>   
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
